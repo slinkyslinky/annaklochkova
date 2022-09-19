@@ -1,0 +1,16 @@
+@use '../common/variables' as var;
+
+.logo {
+   position: relative;
+   width: 66px;
+   height: 80px;
+
+
+   ellipse {
+      fill: var.$pink;
+
+
+   }
+
+
+}

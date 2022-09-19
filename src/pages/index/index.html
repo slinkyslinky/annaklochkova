@@ -1,10 +1,16 @@
-@@include('components/header.html')
+@@include('components/common/head.html')
 
-<h1>Home 123</h1>
+@@include('header/header.html')
+
+@@include('screens/home/home.html')
+@@include('screens/aboutMe/aboutMe.html')
+@@include('screens/programs/programs.html')
+@@include('screens/reviews/reviews.html')
+@@include('screens/contactForm/contactForm.html')
+@@include('footer/footer.html')
 
 
 
 
-@@loop("components/news-item.html","../../data/news.json")
 
-@@include('components/footer.html')
+@@include('components/common/bottom.html')
