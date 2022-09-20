@@ -1156,7 +1156,7 @@ eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpac
   \**********************************/
 /***/ (function(__unused_webpack___webpack_module__, __webpack_exports__, __webpack_require__) {
 
-eval("__webpack_require__.r(__webpack_exports__);\n/* harmony import */ var _screens_reviews_reviews_js__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./screens/reviews/reviews.js */ \"./src/pages/index/screens/reviews/reviews.js\");\n\n\n//# sourceURL=webpack://gulp/./src/pages/index/index.js?");
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony import */ var _screens_reviews_reviews_js__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./screens/reviews/reviews.js */ \"./src/pages/index/screens/reviews/reviews.js\");\n\r\n\r\n\n\n//# sourceURL=webpack://gulp/./src/pages/index/index.js?");
 
 /***/ }),
 
@@ -1166,7 +1166,7 @@ eval("__webpack_require__.r(__webpack_exports__);\n/* harmony import */ var _scr
   \****************************************************/
 /***/ (function(__unused_webpack___webpack_module__, __webpack_exports__, __webpack_require__) {
 
-eval("__webpack_require__.r(__webpack_exports__);\n/* harmony import */ var swiper_bundle__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! swiper/bundle */ \"./node_modules/swiper/swiper-bundle.esm.js\");\n/* harmony import */ var swiper_css_bundle__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! swiper/css/bundle */ \"./node_modules/swiper/swiper-bundle.min.css\");\n\r\n\r\n\r\nconst swiper = new swiper_bundle__WEBPACK_IMPORTED_MODULE_0__[\"default\"]('.swiper', {\r\n   // Optional parameters\r\n   // direction: 'vertical',\r\n   // loop: true,\r\n\r\n   // If we need pagination\r\n   pagination: {\r\n      el: '.swiper-pagination',\r\n   },\r\n\r\n   // Navigation arrows\r\n   navigation: {\r\n      nextEl: '.swiper-button-next',\r\n      prevEl: '.swiper-button-prev',\r\n   },\r\n   slidesPerView: 3\r\n\r\n});\n\n//# sourceURL=webpack://gulp/./src/pages/index/screens/reviews/reviews.js?");
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony import */ var swiper_bundle__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! swiper/bundle */ \"./node_modules/swiper/swiper-bundle.esm.js\");\n/* harmony import */ var swiper_css_bundle__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! swiper/css/bundle */ \"./node_modules/swiper/swiper-bundle.min.css\");\n\r\n\r\n\r\nconst swiper = new swiper_bundle__WEBPACK_IMPORTED_MODULE_0__[\"default\"]('.swiper', {\r\n\r\n   navigation: {\r\n      nextEl: '.swiper-button-next',\r\n      prevEl: '.swiper-button-prev',\r\n   },\r\n   slidesPerView: 3\r\n\r\n});\n\n//# sourceURL=webpack://gulp/./src/pages/index/screens/reviews/reviews.js?");
 
 /***/ })
 

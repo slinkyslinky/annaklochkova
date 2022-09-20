@@ -1,0 +1,9 @@
+@use '../../components/common/variables.scss' as var;
+@use './programsCard/programsCard.scss';
+@use './programsCard/format.scss';
+
+.programs {
+   h2 {
+      padding-bottom: 40px;
+   }
+}

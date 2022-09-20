@@ -4,22 +4,22 @@ const isDev = !isProd
 
 
 export const app = {
-    isProd: isProd,
-    isDev: isDev,
+  isProd: isProd,
+  isDev: isDev,
 
 
-    webpack: {
-        mode: isProd ? "production" : "development",
-        module: {
-            rules: [
-                {
-                    test: /\.css$/i,
-                    use: ["style-loader", "css-loader"],
-                },
-            ],
+  webpack: {
+    mode: isProd ? "production" : "development",
+    module: {
+      rules: [
+        {
+          test: /\.css$/i,
+          use: ["style-loader", "css-loader"],
         },
+      ],
     },
-    imagemin: {
-        verbose: isProd
-    }
+  },
+  imagemin: {
+    verbose: isProd
+  }
 }

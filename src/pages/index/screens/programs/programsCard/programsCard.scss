@@ -1,0 +1,32 @@
+@use '../../../components/common/variables.scss' as var;
+
+.programs-card {
+   max-width: 650px;
+   height: 400px;
+   display: flex;
+
+
+   &__img {
+
+      width: 35%;
+      height: 100%;
+   }
+
+   &__box {
+      display: flex;
+      flex-direction: column;
+      width: 65%;
+      gap: 20px;
+   }
+
+   &__title {
+      color: var.$pink
+   }
+
+   &__description {}
+
+   &__formats {
+      display: flex;
+      gap: 20px;
+   }
+}

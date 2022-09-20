@@ -11,7 +11,7 @@ import webpCss from 'gulp-webp-css'
 const sass = gulpSass(dartSass)
 
 export default function styles() {
-    return $.gulp.src($.path.src.styles, { sourcemaps: $.app.isDev })
+    return $.gulp.src($.path.src.styles, { sourcemaps: $.app.isDev, })
 
         .pipe(sass())
         .pipe(autoprefixer())

@@ -1,0 +1,30 @@
+@use '../../../components/common/variables.scss' as var;
+
+
+
+.format {
+   display: flex;
+   flex-direction: column;
+   gap: 10px;
+   border: 1px solid var.$green;
+   border-radius: 5px;
+
+   text-align: center;
+
+   &__title {
+      font-size: 1.11em;
+      padding: 10px 15px 0;
+   }
+
+   &__time {
+      font-size: 0.72em;
+
+   }
+
+   &__reg {
+      padding: 10px 22px;
+      font-size: 0.88em;
+      color: var.$white;
+      background-color: var.$green;
+   }
+}

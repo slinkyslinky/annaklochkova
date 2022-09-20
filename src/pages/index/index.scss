@@ -1,8 +1,35 @@
+// Global
+@use './components/common/nullification.scss';
 @use './components/common/variables';
 
 
+// Header
+
+@use './header/header.scss';
+
+
+// Components
+@use './components/common/container.scss';
+@use './components/buttons/bigButton.scss';
+@use './components/logo/logo.scss';
+@use './components/titles/h1.scss';
+@use './components/titles/h2.scss';
+@use './components/titles/h3.scss';
+
+
+// Screens
+@use './screens/home/home.scss';
+@use './screens/aboutMe/aboutMe.scss';
+@use './screens/programs/programs.scss';
+@use './screens/reviews/reviews.scss';
+@use './screens/contactForm/contactForm.scss';
+
+// Footer
+@use './footer/footer.scss';
+
+* {}
 
 body {
     font-size: 18px;
-
+    position: relative;
 }

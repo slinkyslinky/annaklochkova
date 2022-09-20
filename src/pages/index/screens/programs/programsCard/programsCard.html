@@ -1,0 +1,29 @@
+<div class="programs-card">
+   <svg class="programs-card__img">
+      @@include('@@image')
+   </svg>
+
+
+   <div class="programs-card__box">
+      <h3 class="programs-card__title">@@title</h3>
+      <p class="programs-card__description">@@description</p>
+      <div class="programs-card__formats">
+         @@include('format.html', {
+         'title': 'Онлайн',
+         'time': '55 мин.',
+         'price': '@@price1',
+         })
+         @@include('format.html', {
+         'title': 'В школе',
+         'time': '55 мин.',
+         'price': '@@price2',
+         })
+         @@include('format.html', {
+         'title': 'У вас',
+         'time': '55 мин.',
+         'price': '@@price3',
+         })
+      </div>
+   </div>
+
+</div>
